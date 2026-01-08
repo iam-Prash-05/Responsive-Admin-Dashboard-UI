@@ -11,25 +11,20 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: minmax(220px, 280px) 1fr;
-    outline: 1px solid black;
 }
 .sidebar {
-    outline: 1px solid black;
+    min-height: 100vh;
     padding: 10px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 .main {
-    outline: 1px solid black;
     padding: 10px;
     display: grid;
     grid-template-rows: auto 1fr;
 }
 .topbar {
-    outline: 1px solid black;
 }
 .content {
-    outline: 1px solid black;
 }
